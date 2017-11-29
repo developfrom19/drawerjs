@@ -1,11 +1,11 @@
-### DrawerJs can be fully customized. 
+#### DrawerJs can be fully customized. 
 
 
 ***
 
 
 
-## Base Settings, Appearance, and Behavior
+### Base Settings, Appearance, and Behavior
 
 * Default settings that are used if no settings are specified
 * Initial size of the DrawerJs container
@@ -21,7 +21,7 @@
 * Position of context menus
 * Custom color picker or HTML5 color picker
 
-## Shapes
+### Shapes
 
 * Layering
 * Colors and transparency
