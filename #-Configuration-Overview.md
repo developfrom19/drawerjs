@@ -1,5 +1,3 @@
-# Configuration Overview
-
 ### DrawerJs can be fully customized. 
 
 
