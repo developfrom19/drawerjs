@@ -1,6 +1,7 @@
 #### Provides a tool to draw polygons.
 
 ***
+### Enabling the Plugin
 ```
 plugins: [
     'Polygon',
