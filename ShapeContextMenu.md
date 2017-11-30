@@ -21,7 +21,7 @@ pluginsConfig: {
 ```
 * `position`:
     * Type: object
-    * `touch`
+    * `touch`:
         * Defines the placement of the context menu when working on touch devices.
         * Default: `'shapeRightBottom'`
     * `mouse`:
