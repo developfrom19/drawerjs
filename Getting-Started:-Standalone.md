@@ -151,7 +151,7 @@ var customLocalization = {
         * `width`:
             * Type: Number
             * Width in px 
-        * height
+        * height:
             * Type: Number
             * Height in px 
 
