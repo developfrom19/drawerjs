@@ -1,1 +1,1 @@
-Welcome to the DrawerJs wiki!
+**Welcome to the DrawerJs wiki!**
