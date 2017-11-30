@@ -41,18 +41,18 @@ This mode gets activated by adding the setting `fixedBackgroundUrl` and define t
 These settings are available for both modes. 
 * `imagePosition`
     * You can set this to one of these options: 
-        * `stretch`: Will stretch the image to the whole canvas. 
-        * `center`: Will center the image on the canvas. 
-        * `top-left`: Will place the image on the top-left of the canvas. 
-        * `top-right`: Will place the image on the top-right of the canvas. 
-        * `bottom-left`: Will place the image on the bottom-left of the canvas. 
-        * `bottom-right`: Will place the image on the bottom-right of the canvas. 
+        * `'stretch'`: Will stretch the image to the whole canvas. 
+        * `'center'`: Will center the image on the canvas. 
+        * `'top-left'`: Will place the image on the top-left of the canvas. 
+        * `'top-right'`: Will place the image on the top-right of the canvas. 
+        * `'bottom-left'`: Will place the image on the bottom-left of the canvas. 
+        * `'bottom-right'`: Will place the image on the bottom-right of the canvas. 
 * `scaleDownLargeImage`: 
     * If set to `true` the inserted image is automatically scaled down to fit into the canvas.
 * `dynamicRepositionImage`: 
     * If set to `true` the background image is dynamically and smoothly resized while the canvas gets resized. 
     * If set to `false` the background image is resized to fit into the canvas after resizing of canvas has been finished. 
-* `dynamicRepositionImageThrottle`
+* `dynamicRepositionImageThrottle`:
     * Only used if `dynamicRepositionImage` is set to `true`. 
     * This setting defines the throttle time in ms for resizing. 
     * If set to `0` no throttling is used and the image is resized on every mouse move while resizing the canvas. 
