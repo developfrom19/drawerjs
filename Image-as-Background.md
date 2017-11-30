@@ -39,7 +39,7 @@ This mode gets activated by adding the setting `fixedBackgroundUrl` and define t
     * Here you can define an URL to your image. This can be a http path or a path to a file on your disk.
 #### Configuration for both modes 
 These settings are available for both modes. 
-* `imagePosition`
+* `imagePosition`:
     * You can set this to one of these options: 
         * `'stretch'`: Will stretch the image to the whole canvas. 
         * `'center'`: Will center the image on the canvas. 
