@@ -38,5 +38,5 @@ The configuration example shows the default settings that are used if no configu
     * Optional setting. If not set, the default color shown in example is used.
 * `colors`: 
     * Defines all usable colors.
-* `colorsInRow`
+* `colorsInRow`:
     * Defines the number of colors per row.
