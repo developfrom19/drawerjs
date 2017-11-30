@@ -19,7 +19,7 @@ pluginsConfig: {
 ```
 * `cursorUrl`:
     * `'pencil'` is a default icon built into DrawerJs.
-    * You can also specify a custom cursor URL in CSS format: `url(assets/eraser_cursor.cur), defaul`
+    * You can also specify a custom cursor URL in CSS format: `'url(assets/eraser_cursor.cur), default'`
     * Note the word `default` at the end: that is the name of the cursor that will be used when the specified URL is unavailable.  
 The Mozilla Developer Network has more information on the [CSS cursor property](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor). 
 * `brushSize`: 
