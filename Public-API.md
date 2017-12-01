@@ -278,6 +278,8 @@ drawer.api.restoreDefaultZoom();
 * The method `restoreDefaultZoom()` will set zoom level to default value and resets position of center points. 
 
 
+***
+
 ### Control Selected Objects
 With this subsection of DrawerJs' API you will control specific selected objects on DrawerJs' canvas.  
 
