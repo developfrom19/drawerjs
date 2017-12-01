@@ -11,7 +11,7 @@
 * Initial size of the DrawerJs container
 * Border styles of the DrawerJs container for both _edit mode_ and _image mode_
 * Tools and shapes listed in the toolbar
-* Appearance of tooltip
+* Appearance of tooltips
 * Localization via separate language files
 * Features like resizing, fullscreen, borders for shapes, Color, and float mode
 * Appearance and size of toolbars, object controls, context menus, and resize controls
