@@ -49,3 +49,7 @@
 
 **Redactor Plugin Specific**
 * [Fullscreen](https://github.com/carstenschaefer/DrawerJs/wiki/Fullscreen)
+
+**DEMO**
+* [Try our HTML Canvas Editor](https://github.com/carstenschaefer/DrawerJs/wiki/Try-our-HTML-Canvas-Editor)
+
