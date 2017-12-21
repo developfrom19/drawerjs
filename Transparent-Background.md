@@ -3,9 +3,7 @@
 ***
 ### Enabling the Plugin
 ```
-drawer: {
-    transparentBackground: false
-}
+transparentBackground: false
 ```
  Settings is optional. If not specified otherwise, the above default will be used and background is set to white canvas. 
 * When setting to `true` the background is transparent. 
