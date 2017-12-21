@@ -4,8 +4,8 @@
 
 ***
 ```
-    toolbarSize: 35,
-    toolbarSizeTouch: 43
+toolbarSize: 35,
+toolbarSizeTouch: 43
 ```
 * Optional setting. If not specified, the settings shown in the example will be used.
 * `toolbarSize`:
