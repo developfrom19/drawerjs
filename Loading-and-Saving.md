@@ -3,13 +3,11 @@
 ***
 ### Configuration for Saving Data
 ```
-drawer: {
-    contentConfig: {
-        saveAfterInactiveSec: 5,
-        saveInHtml: false,
-        imagesContainer: '#drawer-canvas-images-container',
-        canvasDataContainer: '#drawer-canvas-data-container'
-    }
+contentConfig: {
+    saveAfterInactiveSec: 5,
+    saveInHtml: false,
+    imagesContainer: '#drawer-canvas-images-container',
+    canvasDataContainer: '#drawer-canvas-data-container'
 }
 ```
 ### Saving Data in HTML or a Container
