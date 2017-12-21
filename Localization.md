@@ -82,9 +82,7 @@ var localizedTexts = {
 ```
 Assign your localization object to the `texts` property:
 ```
-drawer: {
-    texts: localizedTexts
-}
+texts: localizedTexts
 ```
 * `texts`:
     * Object filled with localized or custom text for the toolbar, tooltips, menu items, and more.
