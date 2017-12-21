@@ -3,9 +3,8 @@
 ***
 ### Configuration
 ```
-drawer: {
-    basePath: '/Client/scripts/vendor/DrawerJs'
-}
+basePath: '/Client/scripts/vendor/DrawerJs'
+
 ```
 * Optional setting. If not specified otherwise, DrawerJs tries to find the folder from which the script is included (script tag in HTML markup). 
 * Path is used e.g. for default image: Specifies the location of the default image that will be drawn initially within the DrawerJs container. 
