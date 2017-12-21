@@ -3,11 +3,10 @@
 ***
 ### Configuration
 ```
-drawer: {
-    detectTouch: function() {
-        // Your code goes here
-    }
+detectTouch: function() {
+    // Your code goes here
 }
+
 ```
 * This function must return `true` or `false`.
 * If the function returns `true`, DrawerJs assumes it runs on a touch device and will … 
