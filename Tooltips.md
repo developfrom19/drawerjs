@@ -3,11 +3,9 @@
 ***
 ### Configuration
 ```
-drawer: {
-    tooltipCss: {
-        color: 'white',
-        background: 'black'
-    }
+tooltipCss: {
+    color: 'white',
+    background: 'black'
 }
 ```
 * Optional setting. If not specified, the settings shown in the example will be used.
