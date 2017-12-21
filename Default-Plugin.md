@@ -3,11 +3,9 @@
 ***
 ### Configuration
 ```
-drawer: {
-   defaultPlugin: {
-       name: 'Pencil',
-       mode: 'onNew'
-   }
+defaultPlugin: {
+    name: 'Pencil',
+    mode: 'onNew'
 }
 ```
 * Optional setting. If not specified, no default plugin will be used.
