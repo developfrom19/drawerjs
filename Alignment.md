@@ -3,9 +3,8 @@
 ***
 ### Configuring Background and Border Styles
 ```
-drawer: {
     align: 'left'
-}
+
 ```
  Settings is optional. If not specified otherwise, the above default will be used. 
 * `align`:
