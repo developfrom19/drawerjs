@@ -3,11 +3,10 @@
 ***
 ### Configuring Background and Border Styles
 ```
-drawer: {
-    borderCss: '1px dashed rgb(195, 194, 194)',
-    borderCssEditMode: '1px dashed rgb(195, 194, 194)',
-    backgroundCss: 'transparent'
-}
+borderCss: '1px dashed rgb(195, 194, 194)',
+borderCssEditMode: '1px dashed rgb(195, 194, 194)',
+backgroundCss: 'transparent'
+
 ```
  All settings are optional. If not specified otherwise, the above defaults will be used. 
 * `borderCss`:
