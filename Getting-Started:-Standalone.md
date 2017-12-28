@@ -8,21 +8,28 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <link rel="stylesheet" href="font-awesome/4.2.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="fonts/font-awesome/font-awesome.min.css" />
         <link rel="stylesheet" href="drawerJs/drawerJs.min.css" />
+        <style>
+            #canvas-editor {
+                margin-top: 50px;
+                margin-left: 50px;
+            }
+        </style>
     </head>
     <body>
         <div id="canvas-editor"></div>
         <script src="jQuery/jquery-1.10.1.min.js"></script>
         <script src="drawerJs/drawerJs.standalone.min.js"></script>
-        <script src="drawerJs/DrawerLocalization.js"></script>
+        <script src="drawerJs/drawerLocalization.js"></script>
         <script src="drawerJsConfig.js"></script>
         <script>
             $(document).ready(function () {
                 var drawer = new DrawerJs.Drawer(null, {
                     texts: customLocalization,
                     plugins: drawerPlugins,
-                    defaultImageUrl: '/images/drawer.jpg'
+                    defaultImageUrl: '/images/drawer.jpg',
+                    defaultActivePlugin : { name : 'Pencil', mode : 'lastUsed'},
                 }, 600, 600);
                 $('#canvas-editor').append(drawer.getHtml());
                 drawer.onInsert();
@@ -31,7 +38,44 @@
     </body>
 </html>
 ```
-
+```
+root
+|
++--fonts
+|  |
+|  +--font-awesome
+|  |  |
+|  |  +--font-awesome.min.css
+|  |  
+|  +--fonts
+|     |
+|     +--fontawesome-webfont.woff2
+|
++--assets
+|  |
+|  +--transparent.png
+|  +--cursor-fa-eraser.cur
+|  +--cursor-fa-pencil.cur
+|
++--drawerJs
+|  |  
+|  +--drawerJs.min.css
+|  +--drawerJs.css.map
+|  +--drawerJs.standalone.js.min.js
+|  +--drawerJs.standalone.js.map
+|  +--drawerLocalization.js
+|
++--images
+|  |
+|  +--drawer.jpg
+|  
++--jQuery
+|  |
+|  +--jquery-1.10.1.min.js
+|
++--drawerJsConfig.js
++--index.html
+```
 
 ### Script: drawerJsConfig.js
 
