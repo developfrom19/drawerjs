@@ -60,5 +60,5 @@ These settings are available for both modes.
 * `cropIsActive`:
     * Allows cropping of image during insertion. 
     * For this feature the `ImageCrop` plugin is needed. 
-*`crossOrigin: 'Anonymous'`
+* `crossOrigin: 'Anonymous'`
     * Allows using images from remote storage as background
